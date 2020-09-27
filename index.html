@@ -8,68 +8,144 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link href="https://raw.githack.com/Arza-3d/ar3.js/master/stylesheets/ar3.min.css" rel="stylesheet" type="text/css">
 
-    <!--
-    <script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
-    </script>
-    -->
-    <title>FPS</title>
+    <title>javascript string</title>
     <style>
-      iframe[src^="https://blueprintue.com"] {
-        border-radius: 8px;
-        height: 300px !important;
-        width: 80%;
-      }
+    .filter-r3 input[type="text"] {
+      max-width: 10px;
+      border-radius: 5px;
+    }
+    .filter-r3 input[type="text"]:focus {
+      max-width: none;
+    }
     </style>
   </head>
   <body
-    data-repo-r3="https://github.com/Arza-3d/UE4-jump-mechanic"
+    data-repo-r3="https://github.com/Arza-3d/doc-js-string"
     data-headers-r3="> div > h2| > div > h3| div > section > h4"
   >
   <script src="https://raw.githack.com/Arza-3d/ar3.js/master/ar3header.js"></script>
   <header>
-    <h1>FPS</h1>
-      <h4>FPS basic</h4>
+    <h1>string di javascript</h1>
+      <h4>catatan properti string di javascript</h4>
       <table>
         <tr>
-          <td>game engine</td>
-          <td>Unreal Engine 4.21.2</td>
-        </tr>
-        <tr>
           <td>project repo</td>
-          <td><a href="https://github.com/Arza-3d/UE4_material_blends">github.com/Arza-3d/UE4_material_blends</a></td>
+          <td><a href="https://github.com/Arza-3d/doc-js-string">https://github.com/Arza-3d/doc-js-string</a></td>
         </tr>
       </table>
+      <p>Berikut adalah rangkuman catatan tentang string di javascript</p>
   </header>
   <main class="aside-nav-target-r3">
 
-      <div data-title-r3="FPS char movement">
+      <div data-title-r3="format">
 
         <h2>string format</h2>
 
-        <h3>character movement</h3>
+        <h3>string format</h3>
         <section>
-          <iframe src="https://blueprintue.com/render/jjdhbsls" scrolling="no" allowfullscreen></iframe>
+          <table>
+            <thead>
+              <tr>
+                <th>format</th>
+                <th>example</th>
+                <th>nama simbol</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <code>
+                    ''
+                  </code>
+                </td>
+                <td>
+                  <code>
+                    teks1BarisA = 'contoh teks 1 baris';
+                  </code>
+                </td>
+                <td>
+                  <i>singlequote</i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <code>
+                    ""
+                  </code>
+                </td>
+                <td>
+                  <code>
+                    teks1BarisB = "contoh teks 1 baris lagi";
+                  </code>
+                </td>
+                <td>
+                  <i>
+                    doublequote
+                  </i>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <code>
+                    ``
+                  </code>
+                </td>
+                <td>
+                  <code>
+                    contohTeksMultiLine = `teks ini terdiri <br> dari beberapa baris`;
+                  </code>
+                </td>
+                <td>
+                  <i>
+                    backquote
+                  </i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
-        <h3>character rotation</h3>
-        <section>
-          <iframe src="https://blueprintue.com/render/_gkbbx_a" scrolling="no" allowfullscreen></iframe>
-        </section>
+      </div>
+      <div data-title-r3="property">
+        <h2>properti string</h2>
+        <h3>tabel properti string</h3>
 
-        <h3>jump</h3>
         <section>
-          <iframe src="https://blueprintue.com/render/e85o06ub" scrolling="no" allowfullscreen></iframe>
-        </section>
+          <a href="https://docs.google.com/spreadsheets/d/1qjAhyzcZc16nu4uLi73FfoyNGJ_XOkJU61LXz8stRLA/edit?usp=sharing">googlesheet properti string</a>
+          <table>
+            <thead>
+              <tr>
+                <th>nama fungsi</th>
+                <th>format code</th>
+                <th>contoh code</th>
+                <th>return</th>
+              </tr>
+            </thead>
+          </table>
 
-        <h2>gun action</h2>
-        <h3>HMD setup</h3>
-        <section>
-          <iframe src="https://blueprintue.com/render/dp8w-0wj" scrolling="no" allowfullscreen></iframe>
+          <table data-JSON-full-r3="jstringFunction" class="sort-r3 filter-r3">
+
+          </table>
+
         </section>
 
       </div>
     </main>
     <script src="https://raw.githack.com/Arza-3d/ar3.js/master/ar3.min.js"></script>
+
+    <script src="database/javascript-string_properties.json"></script>
+    <script src="https://raw.githack.com/Arza-3d/ar3.js/master/modular/table-JSON/ar3-JSON-table-full-1.js"></script>
+    <script src="https://raw.githack.com/Arza-3d/ar3.js/master/modular/table-sort/ar3-table-sort-2.js"></script>
+    <script src="https://raw.githack.com/Arza-3d/ar3.js/master/modular/table-filter/ar3-table-filter-1.js"></script>
+
+    <!-- TEST TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEST nanti diapus
+    <script type="text/javascript">
+      let str = [3, 4, 5, 'a'];
+      let resultTest = str.valueOf();
+      alert(typeof resultTest + " dan hasilnya adalah " + resultTest + " , objek ini adalah array " + Array.isArray(resultTest));
+      //alert(str);
+
+
+    </script>-->
   </body>
 </html>
