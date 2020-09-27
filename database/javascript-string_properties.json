@@ -3,229 +3,301 @@ var _JSON_fullString_r3 =
 
   [
     {
+        "no": 1,
         "code": "charAt()",
         "kegunaan": "return karakter di index yang disebutkan",
         "codeex": "str.charAt(0);",
         "codeexresult": "H",
         "tipeReturn": "string",
         "parameter": "number",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 2,
         "code": "charCodeAt()",
         "kegunaan": "return unicode di index yang disebutkan",
         "codeex": "charCodeAt(0);",
         "codeexresult": 72,
         "tipeReturn": "number",
         "parameter": "number",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 3,
         "code": "concat()",
         "kegunaan": "gabung 2 string",
         "codeex": "str.concat(\"!!!!\");",
         "codeexresult": "Hello world!!!!!",
         "tipeReturn": "string",
         "parameter": "string",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 4,
         "code": "endsWith()",
         "kegunaan": "cek apakah string diakhiri dengan karakter tertentu",
         "codeex": "str.endsWith(\"universe.\");",
         "codeexresult": true,
         "tipeReturn": "boolean",
         "parameter": "string",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
-        "code": "String.fromCharCode()",
-        "kegunaan": "jadikan unicode menjadi string",
-        "codeex": "String.fromCharCode(65);",
-        "codeexresult": "A",
-        "tipeReturn": "string",
-        "parameter": "number",
-        "pCount": 1
-    },
-    {
+        "no": 5,
         "code": "includes()",
         "kegunaan": "cek apakah string mengandung karakter tertentu",
         "codeex": "str.includes(\"world\");",
         "codeexresult": true,
         "tipeReturn": "boolean",
         "parameter": "string",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 6,
         "code": "indexOf()",
         "kegunaan": "return posisi yang pertama kali ditemukan dari karakter yang dicari",
         "codeex": "str.indexOf(\"welcome\");",
         "codeexresult": -1,
         "tipeReturn": "number",
         "parameter": "string",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 7,
         "code": "lastIndexOf()",
         "kegunaan": "return posisi yang terakhir kali ditemukan dari karakter yang dicari",
         "codeex": "str.lastIndexOf(\"l\");",
         "codeexresult": 9,
         "tipeReturn": "string",
         "parameter": "string",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 8,
         "code": "localeCompare()",
         "kegunaan": "Compares two strings in the current locale Returns -1 if str1 is sorted before str2Returns 0 if the two strings are equalReturns 1 if str1 is sorted after str2",
         "codeex": "str.localeCompare(\"Zetta\");",
         "codeexresult": -1,
         "tipeReturn": "number",
         "parameter": "string",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 9,
         "code": "match()",
         "kegunaan": "return kata yang sama dengan regExp dalam bentuk array, jika tidak ada kata yang sama maka return null",
         "codeex": "str.match(/l/g);",
         "codeexresult": "l,l,l",
         "tipeReturn": "array",
         "parameter": "regexp",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 10,
         "code": "repeat()",
         "kegunaan": "return string dengan jumlah copian sesuai parameter",
         "codeex": "str.repeat(2);",
         "codeexresult": "Hello world!Hello world!",
         "tipeReturn": "string",
         "parameter": "number",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 11,
         "code": "replace()",
         "kegunaan": "Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced",
         "codeex": "str.replace(\"world\", \"kamu\");",
         "codeexresult": "Hello kamu! ",
         "tipeReturn": "string",
         "parameter": "string, string",
-        "pCount": 2
+        "pCount": 2,
+        "jenis": "method"
     },
     {
+        "no": 12,
         "code": "search()",
         "kegunaan": "return posisi kata yang dicari, parameter fungsi bisa berupa string atau regexp",
         "codeex": "str.search(/l/g);",
         "codeexresult": 2,
         "tipeReturn": "number",
         "parameter": "string / regexp",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 13,
         "code": "slice()",
         "kegunaan": "Extracts a part of a string and returns a new string",
         "codeex": "str.slice(0, 5);",
         "codeexresult": "Hello",
         "tipeReturn": "string",
         "parameter": "number, number",
-        "pCount": 2
+        "pCount": 2,
+        "jenis": "method"
     },
     {
+        "no": 14,
         "code": "split()",
         "kegunaan": "Splits a string into an array of substrings",
         "codeex": "str.split(\" \");",
         "codeexresult": "Hello,world!",
         "tipeReturn": "array",
         "parameter": "string",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 15,
         "code": "startsWith()",
         "kegunaan": "Checks whether a string begins with specified characters",
         "codeex": "str.startsWith(\"Hello\");",
         "codeexresult": true,
         "tipeReturn": "boolean",
         "parameter": "string",
-        "pCount": 1
+        "pCount": 1,
+        "jenis": "method"
     },
     {
+        "no": 16,
         "code": "substr()",
         "kegunaan": "ambil karakter dari index yang disebutkan di awal hingga index yang sisebutkan di akhir",
         "codeex": "str.substr(1, 4); ",
         "codeexresult": "ello",
         "tipeReturn": "string",
         "parameter": "number, number",
-        "pCount": 2
+        "pCount": 2,
+        "jenis": "method"
     },
     {
+        "no": 17,
         "code": "substring()",
         "kegunaan": "ambil karakter dari index yang disebutkan di awal hingga index sebelum index akhir yang disebutkan",
         "codeex": "str.substring(1, 4);",
         "codeexresult": "ell",
         "tipeReturn": "string",
         "parameter": "number, number",
-        "pCount": 2
+        "pCount": 2,
+        "jenis": "method"
     },
     {
+        "no": 18,
         "code": "toLocaleLowerCase()",
         "kegunaan": "Converts a string to lowercase letters, according to the host's locale",
         "codeex": "str.toLocaleLowerCase();",
         "codeexresult": "hello world!",
         "tipeReturn": "string",
         "parameter": "null",
-        "pCount": 0
+        "pCount": 0,
+        "jenis": "method"
     },
     {
+        "no": 19,
         "code": "toLocaleUpperCase()",
         "kegunaan": "Converts a string to uppercase letters, according to the host's locale",
         "codeex": "str.toLocaleUpperCase();",
         "codeexresult": "HELLO WORLD!",
         "tipeReturn": "string",
         "parameter": "null",
-        "pCount": 0
+        "pCount": 0,
+        "jenis": "method"
     },
     {
+        "no": 20,
         "code": "toLowerCase()",
         "kegunaan": "Converts a string to lowercase letters",
         "codeex": "str.toLowerCase();",
         "codeexresult": "hello world!",
         "tipeReturn": "string",
         "parameter": "null",
-        "pCount": 0
+        "pCount": 0,
+        "jenis": "method"
     },
     {
+        "no": 21,
         "code": "toString()",
         "kegunaan": "Returns the value of a String object",
         "codeex": "str.toString();",
         "codeexresult": "hello world!",
         "tipeReturn": "string",
         "parameter": "null",
-        "pCount": 0
+        "pCount": 0,
+        "jenis": "method"
     },
     {
+        "no": 22,
         "code": "toUpperCase()",
         "kegunaan": "Converts a string to uppercase letters",
         "codeex": "str.toUpperCase();",
         "codeexresult": "HELLO WORLD!",
         "tipeReturn": "string",
         "parameter": "null",
-        "pCount": 0
+        "pCount": 0,
+        "jenis": "method"
     },
     {
+        "no": 23,
         "code": "trim()",
         "kegunaan": "menghapus spasi dari awal dan akhir sebuah teks",
         "codeex": "str.trim();",
         "codeexresult": "hello world!",
         "tipeReturn": "string",
         "parameter": "null",
-        "pCount": 0
+        "pCount": 0,
+        "jenis": "method"
     },
     {
+        "no": 24,
         "code": "valueOf()",
         "kegunaan": "Returns the primitive value of a String object",
         "codeex": "str.valueOf();",
         "codeexresult": "hello world!",
         "tipeReturn": "string",
         "parameter": "null",
-        "pCount": 0
+        "pCount": 0,
+        "jenis": "method"
+    },
+    {
+        "no": 25,
+        "code": "constructor",
+        "kegunaan": "return fungsi pembuat object",
+        "codeex": "str.constructor;",
+        "codeexresult": "function String() {<br>  [native code]<br>}",
+        "tipeReturn": "function",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "property"
+    },
+    {
+        "no": 26,
+        "code": "length",
+        "kegunaan": "return jumlah karakter",
+        "codeex": "str.length;",
+        "codeexresult": 12,
+        "tipeReturn": "number",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "property"
+    },
+    {
+        "no": 27,
+        "code": "String.fromCharCode()",
+        "kegunaan": "jadikan unicode menjadi string",
+        "codeex": "String.fromCharCode(65);",
+        "codeexresult": "A",
+        "tipeReturn": "string",
+        "parameter": "number",
+        "pCount": 1,
+        "jenis": "static method"
     }
 ]
 
